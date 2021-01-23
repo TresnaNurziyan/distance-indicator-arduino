@@ -60,7 +60,7 @@ void loop()
   lcd.setCursor (14,1);
   lcd.print("cm"); 
   
-  if ( distance <= 5 )
+  if ( distance <= 10 )
   {
     digitalWrite(LED1, HIGH);
     digitalWrite(buzzer, HIGH);
@@ -70,7 +70,7 @@ void loop()
     digitalWrite(LED1, LOW);
     digitalWrite(buzzer, LOW);
   }
-  if ( distance <= 7 )
+  if ( distance <= 15 )
   {
     digitalWrite(LED2, HIGH);
   }
@@ -78,7 +78,7 @@ void loop()
   {
     digitalWrite(LED2, LOW);
   }
-  if ( distance <= 10 )
+  if ( distance <= 20 )
   {
     digitalWrite(LED3, HIGH);
   }
@@ -86,7 +86,7 @@ void loop()
   {
     digitalWrite(LED3, LOW);
   }
-  if ( distance <= 15 )
+  if ( distance <= 25 )
   {
     digitalWrite(LED4, HIGH);
   }
@@ -94,7 +94,7 @@ void loop()
   {
     digitalWrite(LED4, LOW);
   }
-  if ( distance <= 17 )
+  if ( distance <= 30 )
   {
     digitalWrite(LED5, HIGH);
   }
@@ -102,7 +102,7 @@ void loop()
   {
     digitalWrite(LED5, LOW);
   }
-  if ( distance <= 20 )
+  if ( distance <= 35 )
   {
     digitalWrite(LED6, HIGH);
   }
@@ -110,7 +110,7 @@ void loop()
   {
     digitalWrite(LED6, LOW);
   }
-  if ( distance <= 25 )
+  if ( distance <= 40 )
   {
     digitalWrite(LED7, HIGH);
   }
